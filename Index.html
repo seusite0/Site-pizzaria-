@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzaria Bella Massa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d12f2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    #cardapio {
+      background-color: #f8f8f8;
+    }
+    .pizza {
+      margin: 20px 0;
+    }
+    .pizza h3 {
+      margin: 10px 0 5px 0;
+    }
+    .pizza p {
+      margin: 0;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    button {
+      background-color: #d12f2f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #b62828;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pizzaria Bella Massa</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Bem-vindo à Pizzaria Bella Massa!</h2>
+    <p>A melhor pizza da cidade, feita com amor e ingredientes selecionados.</p>
+    <button>Peça Agora</button>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Estamos há mais de 10 anos servindo pizzas deliciosas com massa leve e crocante. Nosso objetivo é trazer felicidade em cada pedaço.</p>
+  </section>
+
+  <section id="cardapio">
+    <h2>Nosso Cardápio</h2>
+
+    <div class="pizza">
+      <h3>Pizza de Calabresa</h3>
+      <p>Molho de tomate, queijo mussarela, calabresa fatiada e cebola roxa.</p>
+      <p><strong>R$ 35,00</strong></p>
+    </div>
+
+    <div class="pizza">
+      <h3>Pizza Marguerita</h3>
+      <p>Molho de tomate, queijo mussarela, tomate e manjericão fresco.</p>
+      <p><strong>R$ 32,00</strong></p>
+    </div>
+
+    <div class="pizza">
+      <h3>Pizza Quatro Queijos</h3>
+      <p>Mussarela, provolone, parmesão e gorgonzola.</p>
+      <p><strong>R$ 38,00</strong></p>
+    </div>
+
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📞 (11) 99999-9999</p>
+    <p>📍 Rua das Pizzas, 100 - Centro</p>
+    <button onclick="window.location.href='https://wa.me/5511999999999'">Chamar no WhatsApp</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pizzaria Bella Massa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
